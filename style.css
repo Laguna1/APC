@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+}
+main {
+    border: 5px solid red;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+
+}
+header {
+    height: 140px;
+    width: 1200px;
+    background-color: sandybrown;
+    background-color: 1px solid black;
+}
+nav {
+    width: 92%;
+    height: 40px;
+    background-color: 1px solid red;
+    background-image: url(../APC/img/nav-image.png);
+
+}
+article {
+    height: 140px;
+    width: 1200px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    }
+    aside {
+        height: 140px;
+        width: 1200px;
+        background-color: lightcoral;
+        border: 1px solid black;
+    }
+    footer {
+        height: 140px;
+        width: 1200px;
+        background-color: lightskyblue;
+        border: 1px solid black;
+    }
