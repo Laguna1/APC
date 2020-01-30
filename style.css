@@ -1,7 +1,9 @@
 body {
     box-sizing: border-box;
 }
-
+ul li {
+    list-style: none;
+}
 main {
     border: 5px solid red;
     margin: 0;
@@ -39,6 +41,11 @@ nav {
     background-color: 1px solid red;
     background-image: url(../APC/img/nav-image.png);
 
+}
+
+.nav-logo {
+    width: 25px;
+    height: 25px;
 }
 article {
     height: 224px;
