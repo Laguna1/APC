@@ -133,10 +133,12 @@ article {
 }
   
   #line-third {
-    margin-top: 15px;
-    height: 11%;
+    
     display: inline-block;
+    margin-top: 15px;
+    height: 35%;
     overflow: hidden;
+
   }
   
       /*
