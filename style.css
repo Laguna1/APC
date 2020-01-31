@@ -18,11 +18,11 @@ section {
     max-width: 1200px;
     background-image: url(../APC/img/h_m.jpg);
     background-repeat: no-repeat;
-    background-size: 118%;
-    background-position: -54px 96%;
+    background-size: 149%;
+    background-position: -221px 100%;
 }
 header {
-    height: 140px;
+    height: 624px;
   /*    width: 1040px;
     
   background-color: sandybrown; */
@@ -37,32 +37,110 @@ header {
 }
 nav {
     width: 92%;
-    height: 40px;
+    height: 54px;
     background-color: 1px solid red;
     background-image: url(../APC/img/nav-image.png);
-
+    background-size: cover;
 }
 
 .nav-logo {
     width: 25px;
     height: 25px;
 }
+
+h1 {
+    text-align: left;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 24px; 
+    line-height: 36px;
+    margin: 0px 0px -9px; 
+    padding: 0px;
+}
+h1 > img {
+    height :104px;
+    width: 980px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto; display: block;
+    border-width: 0px;
+    border-style: none;
+    border-color: white; 
+}
+ /*
 article {
-    height: 224px;
- /*   width: 1200px;
+    height: 384px;
+   width: 1200px;
  margin-left: -23%;
-    background-color: lightcoral; */
+    background-color: lightcoral;
     border: 1px solid black;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center; 
+    color: whitesmoke; 
+    
     align-items: center;
     flex-direction: column;
     
-    color: whitesmoke;
-    }
+    
+    }*/
+
+    h2 {
+        text-align: left;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 18px;
+        font-size: 16px;
+        margin: 0px 0px 27px; 
+        padding: 0px; 
+     }
+      h2 > a {
+     text-align: left;
+     color: rgb(0, 136, 204);
+     text-decoration: none;
+      }
+      h2 > a img {
+        height: 176px;
+        width: 980px;
+        text-align: left;
+        display: none;
+        margin-right: auto;
+        margin-left: auto;
+        border-width: 0px; 
+        border-style: none; 
+        border-color: white;
+      }
+      /*
+      .line-t-3 {
+        display: block;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 31px; 
+        margin: 0px auto; 
+        padding: 0px; 
+      }
+      .line-t-3  a {
+        color:rgb(0, 136, 204);
+        text-decoration: none;
+        display: inline-block;
+        height: 29px;
+        margin: 0px 18px 25px; 
+      }
+      .line-t-3 a img {
+        height: 64px;
+        width: 980px;
+        display: inline-block;
+        border-width: 0px; 
+        border-style: none; 
+        border-color: white;
+      }   */
     aside {
-        height: 140px;
-        width: 881px;
+        height: 240px;
+        width: 1200px;
     /*     background-color: lightcoral; */
         border: 1px solid black;
         display: flex;
