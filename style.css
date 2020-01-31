@@ -1,34 +1,40 @@
 body {
     box-sizing: border-box;
+    border: 3px solid red;
 }
 ul li {
     list-style: none;
 }
-main {
-    border: 5px solid red;
-    margin: 0;
+.wrapper {
+    box-sizing: border-box;
+ /*   border: 5px solid red; */
+    margin: 0 auto;
     padding: 0;
-    max-width: 1200px;
+    max-width: 1400px;
+    width: 1024px;
     position: relative;
 
 }
 section {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    max-width: 1200px;
+    max-width: 1400px;
+    width: 1015px;
     background-image: url(../APC/img/h_m.jpg);
     background-repeat: no-repeat;
-    background-size: 149%;
-    background-position: -221px 100%;
+    background-size: 159%;
+    background-position: 46% 100%;
 }
+
+
 header {
     height: 624px;
   /*    width: 1040px;
-    
+    justify-content: space-around;
   background-color: sandybrown; */
     background-color: 1px solid black;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     color: whitesmoke;
@@ -38,6 +44,7 @@ header {
 nav {
     width: 92%;
     height: 54px;
+    margin-top: 50px;
     background-color: 1px solid red;
     background-image: url(../APC/img/nav-image.png);
     background-size: cover;
@@ -49,26 +56,31 @@ nav {
 }
 
 h1 {
+    margin: 83px 0 -7px;
+}
+/* h1 {
     text-align: left;
     font-style: normal;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 24px; 
+    font-size: 24px;
     line-height: 36px;
-    margin: 0px 0px -9px; 
+    margin: 112px 0px 16px;
     padding: 0px;
 }
+
 h1 > img {
     height :104px;
     width: 980px;
     text-align: left;
     margin-right: auto;
-    margin-left: auto; display: block;
+    margin-left: auto; 
+    display: block;
     border-width: 0px;
     border-style: none;
     border-color: white; 
 }
- /*
+ 
 article {
     height: 384px;
    width: 1200px;
@@ -83,7 +95,7 @@ article {
     flex-direction: column;
     
     
-    }*/
+    
 
     h2 {
         text-align: left;
@@ -95,12 +107,14 @@ article {
         margin: 0px 0px 27px; 
         padding: 0px; 
      }
+    
       h2 > a {
      text-align: left;
      color: rgb(0, 136, 204);
      text-decoration: none;
       }
-      h2 > a img {
+
+      h2:first-child {
         height: 176px;
         width: 980px;
         text-align: left;
@@ -111,6 +125,20 @@ article {
         border-style: none; 
         border-color: white;
       }
+      }*/
+#line-first {
+    display: inline-block;
+    overflow: hidden;
+    height: 81%;
+}
+  
+  #line-third {
+    margin-top: 15px;
+    height: 11%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
       /*
       .line-t-3 {
         display: block;
@@ -138,10 +166,11 @@ article {
         border-style: none; 
         border-color: white;
       }   */
-    aside {
+    .image-bar {
+        box-sizing: border-box;
         height: 240px;
-        width: 1200px;
-    /*     background-color: lightcoral; */
+     /*   width: 1400px;
+         background-color: lightcoral; */
         border: 1px solid black;
         display: flex;
         justify-content: space-around;
@@ -151,8 +180,9 @@ article {
         height: 98%;
     }
     footer {
+        box-sizing: border-box;
         height: 56px;
-        width: 862px;
+        width: 1400px;
         display: flex;
         justify-content: space-around;
         padding-bottom: 21px;
