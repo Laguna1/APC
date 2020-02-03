@@ -163,7 +163,7 @@ form {
     background-color: rgba(255, 255, 255, 0.0976562);
     border-radius: 12px;
     z-index: 999;
-    box-shadow: rgba(0, 0, 0, 0.398438) 0 -1px 0, rgba(255, 255, 255, 0.199219) 0px 1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.398438) 0 -1px 0, rgba(255, 255, 255, 0.199219) 0 1px 0;
     background-repeat: no-repeat;
     border-width: 0;
     border-style: none;
@@ -281,11 +281,10 @@ footer {
     color: rgb(110, 110, 110);
     line-height: 1.2;
     padding-top: 20px;
- }
+}
 
 .f-l-down {
     margin-left: 0;
-
 }
 
 .info-left {
