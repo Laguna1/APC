@@ -14,7 +14,7 @@ li {
     margin: 0 auto;
     padding: 0;
     max-width: 1440px;
-    }
+}
 
 section {
     margin: 0 auto;
@@ -28,7 +28,6 @@ section {
     position: relative;
     z-index: -1;
 }
-
 
 header {
     height: 624px;
@@ -50,8 +49,7 @@ nav {
     background-image: url(../img/nav-image.png);
     background-repeat: no-repeat;
     background-size: 930px 48px;
-   }
-
+}
 
 .nav-logo {
     position: absolute;
@@ -85,7 +83,6 @@ nav {
     border-left: 2px solid #848282;
 }
 
-
 .mac {
     left: 27%;
     top: 6px;
@@ -115,7 +112,6 @@ nav {
     padding-top: 10px;
 }
 
-
 .itunes {
     left: 68%;
     top: 7px;
@@ -123,15 +119,12 @@ nav {
     padding-top: 10px;
 }
 
-
 .support {
     left: 78%;
     top: 6px;
     padding-right: 27px;
     padding-top: 10px;
 }
-
-
 
 .nav-search {
     position: absolute;
@@ -145,7 +138,7 @@ nav {
     margin: 0;
     padding: 8px 13px 8px 20px;
     color: #ede7e7fa;
-    }
+}
 
 nav li {
     height: 30px;
@@ -157,7 +150,6 @@ nav li {
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 
 form {
     opacity: 1;
@@ -225,28 +217,28 @@ h1 {
 }
 
 h2 {
-        text-align: left;
-        font-style: normal;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-        line-height: 18px;
-        font-size: 16px;
-        margin: 0 0 27px; 
-        padding: 0; 
-    }
-    
-     h2:first-child {
-        height: 176px;
-        width: 980px;
-        text-align: left;
-        display: none;
-        margin-right: auto;
-        margin-left: auto;
-        border-width: 0; 
-        border-style: none; 
-        border-color: white;
-      }
-      
+    text-align: left;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 16px;
+    margin: 0 0 27px;
+    padding: 0;
+}
+
+h2:first-child {
+    height: 176px;
+    width: 980px;
+    text-align: left;
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 0;
+    border-style: none;
+    border-color: white;
+}
+
 #line-first {
     display: inline-block;
     overflow: hidden;
@@ -267,7 +259,7 @@ h2 {
     justify-content: space-between;
 }
 
-.as-4images>img {
+.as-4images > img {
     width: 98%;
     height: 98%;
 }
@@ -290,15 +282,12 @@ footer {
     padding-top: 20px;
 }
 
-
 .info-left {
     display: flex;
     flex-direction: column;
     line-height: 0.7em;
     padding-left: 30px;
 }
-
-
 
 .info-right {
     width: 52%;
@@ -316,11 +305,12 @@ footer {
 .f-r-li {
     padding-right: 2px;
 }
+
 .flg {
     width: 12px;
 }
 
-a { 
+a {
     cursor: pointer;
     text-decoration: none;
     color: rgb(0, 136, 204);
@@ -330,11 +320,13 @@ a {
     nav {
         width: 85%;
     }
+
     .image-bar {
         width: 98%;
     }
+
     footer {
         width: 90%;
         font-size: 7px;
     }
-  }
+}
