@@ -1,11 +1,10 @@
 # Trainy-APC
 
-
-## The project a webpage APPLE CLONE was building using images as a background and adding gradients to elements.
+- The project a webpage APPLE CLONE was building using images as a background and adding gradients to elements.
 
 ---
 
-### BUILT WITH
+## BUILT WITH
 
 - HTML
 - CSS
