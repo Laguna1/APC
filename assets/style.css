@@ -38,8 +38,8 @@ header {
     height: 624px;
     /*    width: 1040px;
     justify-content: space-around;
-  background-color: sandybrown; */
-    background-color: 1px solid black;
+  background-color: sandybrown;
+    background-color: 1px solid black; */
     display: flex;
 
     align-items: center;
@@ -50,12 +50,14 @@ header {
 }
 
 nav {
-    width: 92%;
-    height: 54px;
-    margin-top: 50px;
-    background-color: 1px solid red;
+    display: flex;
+    height: 34px;
+    max-width: 930px;
+    margin: 0 auto;
+    position: relative;
     background-image: url(../img/nav-image.png);
     background-size: cover;
+  
 }
 
 
@@ -68,27 +70,37 @@ nav {
     z-index: 0;
     margin: 0px;
     padding: 0px;
+    
 
 }
 
 .nav-info {
     display: block;
- position: absolute;
+    position: absolute;
     top: 65px;
-    width: 100%;
+ /*   width: 100%;  */
     height: 30px;
     background-color: transparent;
-
+    border-right: 2px solid black;
+    z-index: 1000;
     margin: 3px auto;
     color: #ede7e7fa;
     font-size: 0.7em;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.n-bar {
+    top: -54px;
+    position: absolute;
+    border-left: 1px solid #ede7e7;
+    padding-left: 6px;
+}
+/*
 .store {
     left: 16%;
-}
+    
+} */
+
 
 .mac {
 
@@ -113,11 +125,13 @@ nav {
 
 .support {
     left: 74%;
+    padding-right: 30px;
+    padding-top: 10px;
 }
 
-nav li {
-    position: relative;
-    border-right: 1px solid white;
+.n-bar {
+ 
+    border-left: 1px solid rgb(12, 11, 11);
     box-shadow: 2px 0 lightslategray;
     z-index: 100;
 }
@@ -137,6 +151,17 @@ nav li {
     color: #ede7e7fa
         /*  border: 1px solid black;   */
 }
+nav li {
+    height: 30px;
+    background-color: transparent;
+    z-index: 1000;
+    margin: 3px auto;
+    color: #ede7e7fa;
+    font-size: 0.7em;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 form {
     opacity: 2;
