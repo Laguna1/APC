@@ -9,7 +9,7 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.wrapper {
+main {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
@@ -71,7 +71,7 @@ nav {
     z-index: 1000;
     margin: 3px auto;
     color: #ede7e7fa;
-    font-size: 0.7em;
+    font-size: 1em;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -260,7 +260,7 @@ h2:first-child {
     justify-content: space-between;
 }
 
-.as-4images > img {
+.as-4images img {
     width: 98%;
     height: 98%;
 }
