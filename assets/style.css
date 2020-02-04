@@ -46,21 +46,13 @@ nav {
     margin: 0 auto;
     position: relative;
     top: 90px;
+    background-color: rgb(99, 99, 102);
     background: 
-      linear-gradient( 
-        to top, rgba(200, 200, 200, 0.212),
-                rgba(100, 100, 100, 0.575) 61%
-      ),
-      linear-gradient( 
-        to right, rgba(100, 100, 98, 0.3),
-                  rgba(200, 200, 200, 0.75) 
-      ), 
-      linear-gradient( 
-        to top, rgba(49, 48, 48, 0),
-                rgba(63, 60, 60, 0) 50%,
-                rgba(90, 99, 90, 0.53) 51% 
-      ) 
-      rgb(50, 50, 50);
+       linear-gradient(0deg, 
+       rgb(145,145,155) 0%,
+       rgb(110,110,120) 50%,
+       rgb(95,95,105) 50%,
+       rgb(120,120,130) 100%);
     background-repeat: no-repeat;
     background-size: 930px 48px;
 }
