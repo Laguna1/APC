@@ -45,7 +45,7 @@ nav {
     position: relative;
     top: 90px;
     border-radius: 5px;
-    background: linear-gradient(0deg, lightgrey 0%, darkgray 25%, black 50%, darkgray 75%, gray 100%);
+    background: linear-gradient(0deg, rgb(228, 227, 227) 0%, rgb(141, 138, 138) 25%, rgb(53, 49, 49) 50%, rgb(94, 88, 88) 75%, rgb(161, 143, 143) 100%);
 }
 
 .nav-logo {
