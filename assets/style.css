@@ -25,8 +25,6 @@ section {
     background-repeat: no-repeat;
     background-size: 1400px 1166px;
     background-position: 60% 101%;
-    position: relative;
-    z-index: -1;
 }
 
 header {
@@ -46,15 +44,9 @@ nav {
     margin: 0 auto;
     position: relative;
     top: 90px;
-    background-color: rgb(99, 99, 102);
+    border-radius: 5px;
     background: 
-       linear-gradient(0deg, 
-       rgb(145,145,155) 0%,
-       rgb(110,110,120) 50%,
-       rgb(95,95,105) 50%,
-       rgb(120,120,130) 100%);
-    background-repeat: no-repeat;
-    background-size: 930px 48px;
+       linear-gradient(0deg, rgb(165,165,165) 0%, rgb(83, 83, 87) 50%, rgb(64, 64, 68) 50%, rgb(156, 156, 173) 100%);
 }
 
 .nav-logo {
@@ -84,14 +76,14 @@ nav {
 
 .store {
     left: 12%;
-    top: 5px;
+    top: 4px;
     padding: 10px 40px 0 40px;
     border-left: 2px solid #848282;
 }
 
 .mac {
     left: 27%;
-    top: 6px;
+    top: 4px;
     width: 7%;
     padding-right: 10px;
     padding-top: 10px;
@@ -99,35 +91,35 @@ nav {
 
 .ipod {
     left: 38%;
-    top: 5px;
+    top: 4px;
     padding-right: 38px;
     padding-top: 10px;
 }
 
 .iphone {
     left: 48%;
-    top: 5px;
+    top: 4px;
     padding-right: 21px;
     padding-top: 10px;
 }
 
 .ipad {
     left: 58%;
-    top: 5px;
+    top: 4px;
     padding-right: 39px;
     padding-top: 10px;
 }
 
 .itunes {
     left: 68%;
-    top: 6px;
+    top: 4px;
     padding-right: 27px;
     padding-top: 10px;
 }
 
 .support {
     left: 78%;
-    top: 6px;
+    top: 4px;
     padding-right: 27px;
     padding-top: 10px;
 }
@@ -138,18 +130,11 @@ nav {
     top: -1px;
     right: -1px;
     width: 15%;
-    background-image: none;
-    background-color: transparent;
-    z-index: 999;
-    margin: 0;
     padding: 8px 13px 8px 20px;
-    color: #ede7e7fa;
 }
 
 nav li {
     height: 30px;
-    background-color: transparent;
-    z-index: 1000;
     margin: 3px auto;
     color: #ede7e7fa;
     font-size: 0.7em;
@@ -158,24 +143,14 @@ nav li {
 }
 
 form {
-    opacity: 1;
-    text-align: center;
-    display: block;
-    color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
     height: auto;
-    background-image: none;
     background-color: rgba(255, 255, 255, 0.0976562);
     border-radius: 12px;
-    z-index: 999;
     box-shadow: rgba(0, 0, 0, 0.398438) 0 -1px 0, rgba(255, 255, 255, 0.199219) 0 1px 0;
-    background-repeat: no-repeat;
-    border-width: 0;
-    border-style: none;
     margin: 1px 0 0;
     padding: 0;
-    border-color: white;
 }
 
 .ins-fo-m {
@@ -189,8 +164,6 @@ label {
 }
 
 input {
-    text-align: left;
-    color: rgb(255, 255, 255);
     background-color: transparent;
     width: 100%;
     height: 28px;
@@ -198,24 +171,15 @@ input {
     border-top-right-radius: 12px 12px;
     border-bottom-right-radius: 12px 12px;
     border-bottom-left-radius: 12px 12px;
-    box-sizing: border-box;
-    z-index: 0;
-    border-width: 0;
     border-style: none;
     margin: 0 0 -1px;
     padding: 2px 18px 1px 22px;
-    border-color: white;
 }
 
 .fa-search {
     position: absolute;
-    top: 4px;
+    top: 6px;
     left: 7px;
-    width: 13px;
-    height: 11px;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -223,10 +187,7 @@ h1 {
 }
 
 h2 {
-    text-align: left;
     font-style: normal;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
     line-height: 18px;
     font-size: 16px;
     margin: 0 0 27px;
@@ -274,11 +235,11 @@ h2:first-child {
 footer {
     box-sizing: border-box;
     height: 56px;
-    width: 1400px;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .f-l-up li,
