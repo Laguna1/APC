@@ -15,7 +15,7 @@
 
 ### Live Demo Link
 
-[APC](https://laguna1.github.io/APC/)
+[APPLE Page Clone](https://laguna1.github.io/APC/)
 
 ---
 
